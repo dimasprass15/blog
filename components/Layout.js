@@ -1,9 +1,9 @@
 import Head from 'next/head'
-import Navbar from "../components/Navbar"
-import Hero from "../components/Hero"
-import Menu from "../components/Menu"
-import Footer from "../components/Footer"
-import Inspsi from "../components/Inspsi"
+import Navbar from '../components/Navbar'
+import Hero from '../components/Hero'
+import Menu from '../components/Menu'
+import Footer from '../components/Footer'
+import Inspsi from '../components/Inspsi'
 
 
 export default function Layout({ title, keywords, description, children }) {
@@ -22,15 +22,15 @@ export default function Layout({ title, keywords, description, children }) {
           <Hero />
         </div>
 
-        <div className="col-md-4">
+        <div className='col-md-4'>
           <Menu />
         </div>
 
-        <div className="container">
+        <div className='container'>
           <Inspsi />
         </div>
 
-        <div className="kaki">
+        <div className='kaki'>
           <Footer />
         </div>
       </div>
