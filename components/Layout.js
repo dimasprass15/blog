@@ -13,6 +13,7 @@ export default function Layout({ title, keywords, description, children }) {
         <title>{title}</title>
         <meta name='keywords' content={keywords} />
         <meta name='description' content={description} />
+        <meta name="robots" content="noindex" />
         <link rel='icon' href='/favicon.ico' />
       </Head>
 
